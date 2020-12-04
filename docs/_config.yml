@@ -13,13 +13,13 @@
 
 theme: jekyll-agency
 
-url    : "https://argonne-lcf.github.io/Argonne-AI-Testbed-System" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url    : "https://argonne-lcf.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Argonne-AI-Testbed-System" # the subpath of your site, e.g. /blog
 
-title      : Your Awesome Website
-email      : your-email@example.com #this is also the email contact forms will go to
-description: "Site description"
-author     : Your Name
+title      : Argonne AI Testbed System
+email      : lbooker@anl.gov #this is also the email contact forms will go to
+description: "Providing information and documentation on the Argonne AI Testbed System"
+author     : Argonne Leadership Computing Facility
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
