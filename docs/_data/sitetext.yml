@@ -1,27 +1,27 @@
 header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Argonne Leadership Computing Facility
+    text: AI Testbed
+    button: Explore the Testbed
     buttonlink: "#services"
 
 services:
-    title: "Services"
+    title: "Testbed Applications"
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Deep Learning for Cancer"
+        desc: "Using CANDLE deep learning to extract protein folding intermediate states. (National Cancer Institute)"
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "COVID-19 Proteins"
+        desc: "Nsp10/16 surface with ligands. Researchers have developed a pipeline to connect ALCF supercomputers to APS experiments to enable real-time analysis of COVID-19 proteins, paving the way to elucidate important protein structural dynamics of the coronavirus. (Image: Mateusz Wilamowski, University of Chicago, Center for Structural Genomics of Infectious Diseases; George Minasov, Northwestern University, Center for Structural Genomics of Infectious Diseases)"
         icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "Deep Learning for Astrophysics"
+        desc: "This image is a snapshot from a visualization that shows the output of the penultimate layer of a deep neural network during training as it learns to classify spiral and elliptical galaxies. Credit: Janet Knowles, Joseph A. Insley, and Silvio Rizzi, Argonne National Laboratory"
         icon: fab fa-markdown
 
 portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Testbed Systems"
+    text: "The AI Testbed is comprised of three systems."
     section: portfolio
     closebutton: "Close Project"
     
