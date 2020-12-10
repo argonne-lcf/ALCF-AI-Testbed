@@ -1,11 +1,11 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Example
+  title: Cerebras (CS-1)
   subtitle: subtitle
   thumbnail: assets/img/portfolio/Cerebras_400x300.jpg
   
 #what displays when the item is clicked:
-title: Title
+title: Cerebras (CS-1)
 subtitle: subtitle lorem ipsum dolor sit amet consectetur.
 image: assets/img/portfolio/Cerebras_400x300.jpg #main image (400x300), can be a link or a file in assets/img/portfolio
 alt: image alt text
