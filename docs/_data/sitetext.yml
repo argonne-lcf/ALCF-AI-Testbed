@@ -20,8 +20,8 @@ services:
         icon: fab fa-markdown
 
 portfolio:
-    title: "Testbed Systems"
-    text: "The AI Testbed is comprised of three systems."
+    title: "Documentation"
+    text: "The AI Testbed is comprised of three systems: Cerebras, Graphcore and SambaNova"
     section: portfolio
     closebutton: "Close Project"
     

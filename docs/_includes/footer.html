@@ -5,8 +5,16 @@
         <div class="col-md-4">
           <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
         </div>
+    <!--Argonne Logo-->
+    <div class="col-md-4"> 
+      <ul class="list-inline logo">
+        <li class="list-inline-item">
+          <img src="assets/img/Argonne_color_black_transparent.png" style="width:30%;height:30%;">
+          </li>
+      </ul>
+    </div>
 		<!-- Social Media -->
-        <div class="col-md-4">
+<!--        <div class="col-md-4">
           <ul class="list-inline social-buttons">
 		  {% for link in site.data.sitetext.footer.social  %}
             <li class="list-inline-item">
@@ -18,15 +26,15 @@
             </li>
 			{% endfor %}
           </ul>
-        </div>
+        </div> -->
 		<!-- Legal -->
-        <div class="col-md-4">
+<!--        <div class="col-md-4"> 
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
               <a href="legal">{{ site.data.sitetext.footer.legal | default: "Privacy Policy" }}</a>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>
