@@ -1,3 +1,5 @@
-site_name: My Docs
+site_name: Documentation for Cerebras (CS1) and SambaNova
 theme:
   name: material
+extra_css:
+  - stylesheets/extra.css
