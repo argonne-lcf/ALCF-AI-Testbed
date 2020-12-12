@@ -20,9 +20,9 @@ title      : Argonne AI Testbed System
 email      : lbooker@anl.gov #this is also the email contact forms will go to
 description: "Providing information and documentation on the Argonne AI Testbed System"
 author     : Argonne Leadership Computing Facility
- logo:     #optional, defaults to site title
-   path: assets\img\Argonne_color_white_transparent.png
-   height: 60 #height in px, defaults to 52px
+# logo:     #optional, defaults to site title
+#   path: assets\img\Argonne_color_white_transparent.png
+#   height: 60 #height in px, defaults to 52px
 
 analytics:
   google: #Google Analytics tracking code here
