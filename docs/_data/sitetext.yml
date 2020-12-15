@@ -16,13 +16,13 @@ services:
     list:
       - title: "Deep Learning for Cancer"
         desc: "Using CANDLE deep learning to extract protein folding intermediate states. (National Cancer Institute)"
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+        image: assets/img/services/DL_Cancer.png
       - title: "COVID-19 Proteins"
         desc: "Nsp10/16 surface with ligands. Researchers have developed a pipeline to connect ALCF supercomputers to APS experiments to enable real-time analysis of COVID-19 proteins, paving the way to elucidate important protein structural dynamics of the coronavirus. (Image: Mateusz Wilamowski, University of Chicago, Center for Structural Genomics of Infectious Diseases; George Minasov, Northwestern University, Center for Structural Genomics of Infectious Diseases)"
-        icon: fas fa-laptop       
+        image: assets/img/services/COVID-19.png       
       - title: "Deep Learning for Astrophysics"
         desc: "This image is a snapshot from a visualization that shows the output of the penultimate layer of a deep neural network during training as it learns to classify spiral and elliptical galaxies. Credit: Janet Knowles, Joseph A. Insley, and Silvio Rizzi, Argonne National Laboratory"
-        icon: fab fa-markdown
+        image: assets/img/services/DL_Astrophysics.png
 
 portfolio:
     title: "Documentation"
