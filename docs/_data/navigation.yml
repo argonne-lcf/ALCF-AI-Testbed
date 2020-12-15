@@ -1,4 +1,7 @@
 nav:
+  - title: "About"
+    section: about
+
   - title: "Testbed Applications"
     section: services
 

@@ -4,6 +4,11 @@ header:
     button: Explore the Testbed
     buttonlink: "#services"
 
+about:
+    title: "About the AI Testbed"
+    text: "our story"
+    section: about
+
 services:
     title: "Testbed Applications"
     text: "Lorem ipsum"
@@ -119,7 +124,7 @@ portfolio:
           
 contact:
     title: "Contact Us"
-    text: "Send testbed-related inquiries by completing the below form."
+    #text: "Send testbed-related inquiries by completing the below form."
     section: contact
     
 footer:

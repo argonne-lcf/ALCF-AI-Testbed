@@ -5,7 +5,7 @@ white: "#b8e2de"
 
 #Image Customization
 header-image: "../img/header.png"
-contact-image: "../img/contact.png"
+contact-image: "../img/shutterstock_365203673.png"
 
 #Font Awesome icon for portfolio grid when an item is hovered over
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
