@@ -1,0 +1,28 @@
+body { overflow-x: hidden; font-family: 'Proxima Nova'; }
+/* Custom colors */
+/*$primary: {{ site.data.style.highlight | default: "#fed136" }} !default;
+$white: {{ site.data.style.white | default: "#fff" }} !default;
+$black: {{ site.data.style.black | default: "#000" }} !default;*/
+/*.text-primary { color: #009f90 !important; }*/
+header.md-header { background-color: #212529; color: #b8e2de;}
+nav.md-tabs { background-color: #212529; color: #b8e2de;}
+label.md-search__icon.md-icon {color: #b8e2de;}
+a.md-nav__link.md-nav__link--active {color: #009f90;}
+/*.md-nav__link.md-nav__link--hover {color: #006b61;}*/
+a {color: #009f90;}
+.md-nav__link:focus {
+    color: #009f90;
+}
+.md-nav__link:hover {color: #006b61;}
+.md-typeset a, a:focus {
+    color: #009f90;
+}
+.md-typeset a:hover {color: #006b61;}
+html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a {color: #b8e2de;}
+
+.md-announce, .md-footer, .md-footer-meta {background-color: #212529;}
+
+.md-header-nav__button.md-logo img {
+    width: 4.2rem;
+    height: 1.2rem;
+}
