@@ -1,0 +1,12 @@
+nav:
+  - title: "About"
+    section: about
+
+  - title: "Testbed Applications"
+    section: services
+
+  - title: "Documentation"
+    section: portfolio
+
+  - title: "Contact"
+    section: contact
