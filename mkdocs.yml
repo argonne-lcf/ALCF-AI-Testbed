@@ -15,10 +15,10 @@ markdown_extensions:
   - attr_list
 repo_url: https://github.com/argonne-lcf/Argonne-AI-Testbed-System
 nav:
-    - 'Back to Main Site': 'https://argonne-lcf.github.io/Argonne-AI-Testbed-System/'
+    - 'Back to Main Site': 'https://argonne-lcf.github.io/AITS-Site/'
     - Documentation Home: 'index.md'
-    - 'About': 'https://argonne-lcf.github.io/Argonne-AI-Testbed-System/#about'
-    - 'Testbed Applications': 'https://argonne-lcf.github.io/Argonne-AI-Testbed-System/#services'
+    - 'About': 'https://argonne-lcf.github.io/AITS-Site/#about'
+    - 'Testbed Applications': 'https://argonne-lcf.github.io/AITS-Site/#services'
     - 'Cerebras (CS-1)': 'cerebras.md'
     - 'SambaNova': 'sambanova.md'
-    - 'Contact': 'https://argonne-lcf.github.io/Argonne-AI-Testbed-System/#contact'
+    - 'Contact': 'https://argonne-lcf.github.io/AITS-Site/#contact'
