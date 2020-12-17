@@ -13,6 +13,7 @@
   }
   .navbar-brand {
     color: $primary;
+    font-weight: 600;
     @include script-font;
     &.active,
     &:active,
