@@ -4,7 +4,8 @@ body { overflow-x: hidden; font-family: 'Proxima Nova'; }
 $white: {{ site.data.style.white | default: "#fff" }} !default;
 $black: {{ site.data.style.black | default: "#000" }} !default;*/
 /*.text-primary { color: #009f90 !important; }*/
-header.md-header { background-color: #212529; color: #b8e2de;}
+header.md-header { background-color: #212529; color: #009f90;}
+.md-header-nav__title {font-weight: 600;}
 nav.md-tabs { background-color: #212529; color: #b8e2de;}
 label.md-search__icon.md-icon {color: #b8e2de;}
 a.md-nav__link.md-nav__link--active {color: #009f90;}
@@ -22,7 +23,14 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a {colo
 
 .md-announce, .md-footer, .md-footer-meta {background-color: #212529;}
 
-.md-header-nav__button.md-logo img {
+.md-header-nav__button.md-logo svg {display: none;}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: "https://fonts.googleapis.com/css?family=Proxima+Nova";
+  }  
+
+/*.md-header-nav__button.md-logo img {
     width: 4.2rem;
     height: 1.2rem;
-}
+}*/
