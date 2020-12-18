@@ -39,9 +39,14 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a {colo
 .md-tabs__link {color: white;}
 
 @font-face {
-    font-family: "Proxima Nova";
-    src: "https://fonts.googleapis.com/css?family=Proxima+Nova";
+    font-family: "Proxima Nova", "Montserrat";
+    src: "https://fonts.googleapis.com/css?family=Proxima+Nova", "https://fonts.googleapis.com/css?family=Montserrat";
   }  
+
+/*Hide Table of Contents*/
+.md-sidebar--secondary {
+  display: none;
+}
 
 /*.md-header-nav__button.md-logo img {
     width: 4.2rem;

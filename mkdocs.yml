@@ -11,6 +11,7 @@ extra_css:
   - stylesheets/extra.css
 markdown_extensions:
   - attr_list
+  - meta
 #repo_url: https://github.com/argonne-lcf/Argonne-AI-Testbed-System
 nav:
     - 'About': 'https://argonne-lcf.github.io/AITS-Site/#about'
