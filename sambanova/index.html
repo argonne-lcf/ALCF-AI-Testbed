@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-mkdocs" class="md-skip">
+        <a href="#getting-started-with-sambanova" class="md-skip">
           Skip to content
         </a>
       
@@ -389,16 +389,84 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
+  <a href="#accounts" class="md-nav__link">
+    Accounts:
+  </a>
+  
+    <nav class="md-nav" aria-label="Accounts:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-get-an-account-on-the-sambanova-sn-system-contact-venkat-vishwanath-amp118amp101amp110amp107amp97amp116amp64amp97amp110amp108amp46amp103amp111amp118-for-access" class="md-nav__link">
+    1. Get an account on the SambaNova (SN) system. Contact Venkat Vishwanath (amp#118;amp#101;amp#110;amp#107;amp#97;amp#116;amp#64;amp#97;amp#110;amp#108;amp#46;amp#103;amp#111;amp#118;) for access.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-you-will-first-need-to-login-to-one-of-the-mcs-or-cels-machines-first-and-then-ssh-to-the-sambanova-system-that-has-2-nodes-sm-01-and-sm-02-hostname-for-sambanova-is-sm-01celsanlgov-and-sm-02celsanlgov" class="md-nav__link">
+    2. You will first need to login to one of the MCS or CELS machines first and then ssh to the SambaNova system that has 2 nodes sm-01 and sm-02. Hostname for SambaNova is sm-01.cels.anl.gov and sm-02.cels.anl.gov
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documents" class="md-nav__link">
+    Documents:
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
+  <a href="#first-steps" class="md-nav__link">
+    First Steps:
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-run" class="md-nav__link">
+    How to Run
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Run">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-compile-compiles-the-model-and-generates-a-pef-file-this-file-contains-information-on-how-to-reconfigure-the-hardware-like-many-compute-and-memory-resources-are-required-and-will-be-used-in-all-subsequent-steps-the-pef-files-are-usually-saved-in-out-directory-it-is-advised-to-save-it-in-a-separate-dir-with-output-folder-option" class="md-nav__link">
+    1. Compile: Compiles the model and generates a .pef file. This file contains information on how to reconfigure the hardware like many compute and memory resources are required, and will be used in all subsequent steps. The pef files are usually saved in 'out' directory, it is advised to save it in a separate dir with '--output-folder' option
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-test-optional-runs-a-test-both-on-the-host-cpu-and-sn-node-and-will-raise-errors-if-any-discrepancies-are-found-pass-the-pef-file-generated-above-as-the-input" class="md-nav__link">
+    2. Test (optional): Runs a test both on the host CPU and SN node and will raise errors if any discrepancies are found. Pass the pef file generated above as the input.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-run-this-will-run-the-application-on-sn-nodes" class="md-nav__link">
+    3. Run: This will run the application on SN nodes.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-measure-performance-this-step-will-report-the-measured-performance-the-parameters-depend-on-the-model-and-can-include-latency-samplessec" class="md-nav__link">
+    4. Measure Performance: This step will report the measured performance. The parameters depend on the model and can include latency, samples/sec.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -469,16 +537,84 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
+  <a href="#accounts" class="md-nav__link">
+    Accounts:
+  </a>
+  
+    <nav class="md-nav" aria-label="Accounts:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-get-an-account-on-the-sambanova-sn-system-contact-venkat-vishwanath-amp118amp101amp110amp107amp97amp116amp64amp97amp110amp108amp46amp103amp111amp118-for-access" class="md-nav__link">
+    1. Get an account on the SambaNova (SN) system. Contact Venkat Vishwanath (amp#118;amp#101;amp#110;amp#107;amp#97;amp#116;amp#64;amp#97;amp#110;amp#108;amp#46;amp#103;amp#111;amp#118;) for access.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-you-will-first-need-to-login-to-one-of-the-mcs-or-cels-machines-first-and-then-ssh-to-the-sambanova-system-that-has-2-nodes-sm-01-and-sm-02-hostname-for-sambanova-is-sm-01celsanlgov-and-sm-02celsanlgov" class="md-nav__link">
+    2. You will first need to login to one of the MCS or CELS machines first and then ssh to the SambaNova system that has 2 nodes sm-01 and sm-02. Hostname for SambaNova is sm-01.cels.anl.gov and sm-02.cels.anl.gov
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documents" class="md-nav__link">
+    Documents:
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
+  <a href="#first-steps" class="md-nav__link">
+    First Steps:
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-run" class="md-nav__link">
+    How to Run
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Run">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-compile-compiles-the-model-and-generates-a-pef-file-this-file-contains-information-on-how-to-reconfigure-the-hardware-like-many-compute-and-memory-resources-are-required-and-will-be-used-in-all-subsequent-steps-the-pef-files-are-usually-saved-in-out-directory-it-is-advised-to-save-it-in-a-separate-dir-with-output-folder-option" class="md-nav__link">
+    1. Compile: Compiles the model and generates a .pef file. This file contains information on how to reconfigure the hardware like many compute and memory resources are required, and will be used in all subsequent steps. The pef files are usually saved in 'out' directory, it is advised to save it in a separate dir with '--output-folder' option
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-test-optional-runs-a-test-both-on-the-host-cpu-and-sn-node-and-will-raise-errors-if-any-discrepancies-are-found-pass-the-pef-file-generated-above-as-the-input" class="md-nav__link">
+    2. Test (optional): Runs a test both on the host CPU and SN node and will raise errors if any discrepancies are found. Pass the pef file generated above as the input.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-run-this-will-run-the-application-on-sn-nodes" class="md-nav__link">
+    3. Run: This will run the application on SN nodes.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-measure-performance-this-step-will-report-the-measured-performance-the-parameters-depend-on-the-model-and-can-include-latency-samplessec" class="md-nav__link">
+    4. Measure Performance: This step will report the measured performance. The parameters depend on the model and can include latency, samples/sec.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -495,21 +631,56 @@
               
                 
                 
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+                <h1 id="getting-started-with-sambanova">Getting Started with SambaNova</h1>
+<h3 id="accounts">Accounts:</h3>
+<h4 id="1-get-an-account-on-the-sambanova-sn-system-contact-venkat-vishwanath-amp118amp101amp110amp107amp97amp116amp64amp97amp110amp108amp46amp103amp111amp118-for-access">1. Get an account on the SambaNova (SN) system. Contact Venkat Vishwanath (<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#118;&#101;&#110;&#107;&#97;&#116;&#64;&#97;&#110;&#108;&#46;&#103;&#111;&#118;">&#118;&#101;&#110;&#107;&#97;&#116;&#64;&#97;&#110;&#108;&#46;&#103;&#111;&#118;</a>) for access.</h4>
+<h4 id="2-you-will-first-need-to-login-to-one-of-the-mcs-or-cels-machines-first-and-then-ssh-to-the-sambanova-system-that-has-2-nodes-sm-01-and-sm-02-hostname-for-sambanova-is-sm-01celsanlgov-and-sm-02celsanlgov">2. You will first need to login to one of the MCS or CELS machines first and then ssh to the SambaNova system that has 2 nodes <code>sm-01</code> and <code>sm-02</code>. Hostname for SambaNova is <code>sm-01.cels.anl.gov</code> and <code>sm-02.cels.anl.gov</code></h4>
+<h3 id="documents">Documents:</h3>
+<p>SambaNova technical documents to read through. Part 1 is H/W and Part 2 is S/W</p>
+<!--<https://anl.box.com/s/bwy9ve72306l1q01qw3g4vwk4a93k06z>-->
+
+<p>These are under NDA. Please don't share. If you are unable to access these documents, please reach out to Venkat/Murali for access.</p>
+<p>There is a dedicated documentation portal, please reach out to Murali Emani (<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#101;&#109;&#97;&#110;&#105;&#64;&#97;&#110;&#108;&#46;&#103;&#111;&#118;">&#109;&#101;&#109;&#97;&#110;&#105;&#64;&#97;&#110;&#108;&#46;&#103;&#111;&#118;</a>) for access.</p>
+<h3 id="first-steps">First Steps:</h3>
+<p>After logging in, you need to activate SN virtual environment (venv) before running models.</p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>
+<p>Activating venv environment: <code>source /opt/sambaflow/venv/bin/activate</code></p>
+</li>
+<li>
+<p>Deactivating venv environment: <code>deactivate</code></p>
+</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+<h3 id="how-to-run">How to Run</h3>
+<p>To run an application on the SambaNova nodes, it has to be written in 'SambaFlow' which is similar to PyTorch. This software stack includes the compilers, runtime and SambaFlow Python SDK.  It is to be noted not all operators are supported yet, they will be released in monthly releases. Support for Tensorflow is work in progress.</p>
+<p>The workflow includes the following four steps to run a model. A high-level overview is mentioned here. Detailed information can be obtained from the official documentation.</p>
+<h4 id="1-compile-compiles-the-model-and-generates-a-pef-file-this-file-contains-information-on-how-to-reconfigure-the-hardware-like-many-compute-and-memory-resources-are-required-and-will-be-used-in-all-subsequent-steps-the-pef-files-are-usually-saved-in-out-directory-it-is-advised-to-save-it-in-a-separate-dir-with-output-folder-option">1. Compile: Compiles the model and generates a .pef file. This file contains information on how to reconfigure the hardware like many compute and memory resources are required, and will be used in all subsequent steps. The pef files are usually saved in 'out' directory, it is advised to save it in a separate dir with '--output-folder' option</h4>
+<pre><code>python myapp.py compile --pef-name=&quot;myapp.pef&quot;
 </code></pre>
+
+<h4 id="2-test-optional-runs-a-test-both-on-the-host-cpu-and-sn-node-and-will-raise-errors-if-any-discrepancies-are-found-pass-the-pef-file-generated-above-as-the-input">2. Test (optional): Runs a test both on the host CPU and SN node and will raise errors if any discrepancies are found. Pass the pef file generated above as the input.</h4>
+<pre><code>python myapp.py test --pef=&quot;out/myapp/myapp.pef&quot;
+</code></pre>
+
+<h4 id="3-run-this-will-run-the-application-on-sn-nodes">3. Run: This will run the application on SN nodes.</h4>
+<pre><code>python myapp.py run --pef=&quot;out/myapp/myapp.pef&quot;
+</code></pre>
+
+<h4 id="4-measure-performance-this-step-will-report-the-measured-performance-the-parameters-depend-on-the-model-and-can-include-latency-samplessec">4. Measure Performance: This step will report the measured performance. The parameters depend on the model and can include latency, samples/sec.</h4>
+<pre><code>python myapp.py measure-performance --pef=&quot;out/myapp/myapp.pef
+</code></pre>
+
+<p>Other parameters can be found with <code>--help</code> command in any step, (ex. <code>python myapp,py compile --help</code>)</p>
+<p>There are some sample programs at <code>/opt/sambaflow/apps/</code> to try out. </p>
+<p>These steps can be submitted in a single script via Slurm using sbatch command.</p>
+<pre><code>sbatch --output=&lt;path&gt;/output.log  submit-job.sh
+</code></pre>
+
+<p>The node and number of resources required can be passed as arguments to sbatch</p>
+<pre><code>sbatch --output=&lt;path&gt;/output.log -w &lt;node: sm-01/sm-2&gt; --cpus-per-task=4 --gres=rdu:1 submit-job.sh
+</code></pre>
+
+<p>For any other questions, please reach out to Venkat (<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#118;&#101;&#110;&#107;&#97;&#116;&#64;&#97;&#110;&#108;&#46;&#103;&#111;&#118;">&#118;&#101;&#110;&#107;&#97;&#116;&#64;&#97;&#110;&#108;&#46;&#103;&#111;&#118;</a>), Murali (<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#109;&#101;&#109;&#97;&#110;&#105;&#64;&#97;&#110;&#108;&#46;&#103;&#111;&#118;">&#109;&#101;&#109;&#97;&#110;&#105;&#64;&#97;&#110;&#108;&#46;&#103;&#111;&#118;</a>).</p>
                 
               
               
