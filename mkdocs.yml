@@ -13,10 +13,10 @@ markdown_extensions:
   - attr_list
 #repo_url: https://github.com/argonne-lcf/Argonne-AI-Testbed-System
 nav:
-    - Documentation: 'index.md'
     - 'About': 'https://argonne-lcf.github.io/AITS-Site/#about'
     - 'Testbed Applications': 'https://argonne-lcf.github.io/AITS-Site/#services'
     - 'Cerebras (CS-1)': 'cerebras.md'
     - 'SambaNova': 'sambanova.md'
     - 'Graphcore': 'https://docs.graphcore.ai/en/latest/'
     - 'Contact': 'https://argonne-lcf.github.io/AITS-Site/#contact'
+    - Documentation: 'index.md'
