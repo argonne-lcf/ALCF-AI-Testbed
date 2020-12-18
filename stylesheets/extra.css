@@ -25,6 +25,8 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a {colo
 
 .md-header-nav__button.md-logo svg {display: none;}
 
+.md-tabs__item:nth-child(4) {display: none;}
+
 .md-tabs__link {color: white;}
 
 @font-face {
