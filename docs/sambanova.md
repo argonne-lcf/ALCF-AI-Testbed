@@ -8,7 +8,7 @@
 ### Documents:
 SambaNova technical documents to read through. Part 1 is H/W and Part 2 is S/W
 
-<!--<https://anl.box.com/s/bwy9ve72306l1q01qw3g4vwk4a93k06z>-->
+<!--<https://anl.box.com/s/bwy9ve72306l1q01qw3g4vwk4a93k06z>{:target="_blank"}-->
 
 These are under NDA. Please don't share. If you are unable to access these documents, please reach out to Venkat/Murali for access.
 
