@@ -665,8 +665,8 @@
 <p>This guide provides a quickstart guide to running a training job on the ANL CS-1 cluster with SLURM, using a simple FC model as a demo model.</p>
 <p>For more details on how to prepare a model for CS-1 and on the execution model, please see the full CS-1 ML User Guide.</p>
 <h4 id="1-log-in-to-the-cs-1-medulla-cluster-at-anl">1. Log in to the CS-1 <code>medulla</code> cluster at ANL</h4>
-<p>In order to login, you need a CELS ldap account. Go to <a href="https://accounts.cels.anl.gov/">https://accounts.cels.anl.gov/</a> and create an account. After that, request to join a project named "Cerebras".  </p>
-<p>The CS-1 support cluster accepts connections from CELS homes nodes (homes.cels.anl.gov). You can connect to CELS homes nodes first and ssh to cs1. See <a href="https://virtualhelpdesk.cels.anl.gov/docs/linux/login-compute-and-home-nodes/">https://virtualhelpdesk.cels.anl.gov/docs/linux/login-compute-and-home-nodes/</a> for connecting homes nodes.</p>
+<p>In order to login, you need a CELS ldap account. Go to <a href="https://accounts.cels.anl.gov/" target="_blank">https://accounts.cels.anl.gov/</a> and create an account. After that, request to join a project named "Cerebras".  </p>
+<p>The CS-1 support cluster accepts connections from CELS homes nodes (homes.cels.anl.gov). You can connect to CELS homes nodes first and ssh to cs1. See <a href="https://virtualhelpdesk.cels.anl.gov/docs/linux/login-compute-and-home-nodes/" target="_blank">https://virtualhelpdesk.cels.anl.gov/docs/linux/login-compute-and-home-nodes/</a> for connecting homes nodes.</p>
 <p>For your convenience, you can set an ssh proxy as below,</p>
 <pre><code># ssh proxy setting ~/.ssh/config
 ControlPath ~/.ssh/.control_channels/%h:%p:%r
@@ -693,7 +693,7 @@ ProxyCommand ssh login-gce -q -W %h:%p
 </code></pre>
 
 <h4 id="2-clone-model-zoo-repository-to-home-directory">2. Clone model zoo repository to home directory</h4>
-<p>Currently, the Cerebras <strong><a href="https://github.com/Cerebras/modelzoo">ModelZoo</a></strong> repo is private. Please contact <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#99;&#101;&#114;&#101;&#98;&#114;&#97;&#115;&#46;&#110;&#101;&#116;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#99;&#101;&#114;&#101;&#98;&#114;&#97;&#115;&#46;&#110;&#101;&#116;</a>, cc: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#101;&#115;&#115;&#105;&#99;&#97;&#64;&#99;&#101;&#114;&#101;&#98;&#114;&#97;&#115;&#46;&#110;&#101;&#116;">&#106;&#101;&#115;&#115;&#105;&#99;&#97;&#64;&#99;&#101;&#114;&#101;&#98;&#114;&#97;&#115;&#46;&#110;&#101;&#116;</a> with your Github username and "UChicago ModelZoo Access" in the subject line.</p>
+<p>Currently, the Cerebras <strong><a href="https://github.com/Cerebras/modelzoo" target="_blank">ModelZoo</a></strong> repo is private. Please contact <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#99;&#101;&#114;&#101;&#98;&#114;&#97;&#115;&#46;&#110;&#101;&#116;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#99;&#101;&#114;&#101;&#98;&#114;&#97;&#115;&#46;&#110;&#101;&#116;</a>, cc: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#101;&#115;&#115;&#105;&#99;&#97;&#64;&#99;&#101;&#114;&#101;&#98;&#114;&#97;&#115;&#46;&#110;&#101;&#116;">&#106;&#101;&#115;&#115;&#105;&#99;&#97;&#64;&#99;&#101;&#114;&#101;&#98;&#114;&#97;&#115;&#46;&#110;&#101;&#116;</a> with your Github username and "UChicago ModelZoo Access" in the subject line.</p>
 <pre><code>git clone git@github.com:Cerebras/modelzoo.git
 </code></pre>
 
@@ -709,13 +709,13 @@ ProxyCommand ssh login-gce -q -W %h:%p
 <p><code>rnn_sentiment</code>, LSTM-based sentiment analysis model that predicts sentiment type on a passage</p>
 </li>
 </ol>
-<p><strong><a href="https://bluejeans.com/playback/s/mZJ5DqnjvP2nsLPCwegfMqjRkz6gzaaqG80NmjmpU4bpx6teHotpximQ3PsMos4f">Model zoo walkthrough video is available here.</a></strong></p>
+<p><strong><a href="https://bluejeans.com/playback/s/mZJ5DqnjvP2nsLPCwegfMqjRkz6gzaaqG80NmjmpU4bpx6teHotpximQ3PsMos4f" target="_blank">Model zoo walkthrough video is available here.</a></strong></p>
 <p>For the purposes of this quickstart, we will use the <code>fc_mnist</code> model.</p>
 <pre><code>cd modelzoo/fc_mnist/tf/
 </code></pre>
 
 <h4 id="3-running-a-model-with-slurm-on-cs-1">3. Running a model with Slurm on CS-1</h4>
-<p>For more details on Slurm options please see the full <strong><a href="https://docs.google.com/document/d/12u7eooakOlv16nF4-4Cw7njArE_Vk5LMxKwo-PKcozI/edit#heading=h.xg9jdr68szft">CS-1 User Guide</a></strong> section <em>Executing a training job on CS-1 with Slurm</em>.</p>
+<p>For more details on Slurm options please see the full <strong><a href="https://docs.google.com/document/d/12u7eooakOlv16nF4-4Cw7njArE_Vk5LMxKwo-PKcozI/edit#heading=h.xg9jdr68szft" target="_blank">CS-1 User Guide</a></strong> section <em>Executing a training job on CS-1 with Slurm</em>.</p>
 <p>The common below trains the simple FC model for 100,000 steps, takes a checkpoint every 10,000 steps, and tells Slurm to launch 1 input worker node to feed the training job. The <code>num_steps</code> and <code>save_checkpoints_steps</code> parameters can also be set in the <code>params.yml</code> file.</p>
 <pre><code>NUM_WORKER_NODES=1 srun_train python run.py --mode train --cs_ip 10.80.0.100 --max_steps 100000
 </code></pre>
