@@ -25,6 +25,8 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a {colo
 
 .md-header-nav__button.md-logo svg {display: none;}
 
+.md-tabs__link {color: white;}
+
 @font-face {
     font-family: "Proxima Nova";
     src: "https://fonts.googleapis.com/css?family=Proxima+Nova";
