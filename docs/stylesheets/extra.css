@@ -25,8 +25,17 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a {colo
 
 .md-header-nav__button.md-logo svg {display: none;}
 
+/*Hiding everything in left nav except for systems*/
+.md-nav__item:nth-child(1) {display: none;}
+.md-nav__item:nth-child(2) {display: none;}
+.md-nav__item:nth-child(3) {display: none;}
+.md-nav__item:nth-child(7) {display: none;}
+.md-nav__item:nth-child(8) {display: none;}
+
+/*Hide Graphcore in Header Nav*/
 .md-tabs__item:nth-child(4) {display: none;}
 
+/*Change Header Nav Tabs Color*/
 .md-tabs__link {color: white;}
 
 @font-face {
