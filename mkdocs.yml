@@ -15,6 +15,7 @@ markdown_extensions:
 nav:
     - 'About': 'https://argonne-lcf.github.io/AITS-Site/#about'
     - 'Testbed Applications': 'https://argonne-lcf.github.io/AITS-Site/#services'
+    - 'Systems': 'https://argonne-lcf.github.io/AITS-Site/#portfolio'
     - 'Cerebras (CS-1)': 'cerebras.md'
     - 'SambaNova': 'sambanova.md'
     - 'Graphcore': 'https://docs.graphcore.ai/en/latest/'
