@@ -2,8 +2,8 @@ site_name: Argonne AI-testbed System
 site_url: https://argonne-lcf.github.io/Argonne-AI-Testbed-System/
 theme:
   name: material
-  font:
-    text: Proxima Nova
+#  font:
+#    text: Proxima Nova, Montserrat, Arial
   features:
     - header.autohide
   custom_dir: overrides
