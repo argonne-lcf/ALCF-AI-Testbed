@@ -1,4 +1,4 @@
-body { overflow-x: hidden; font-family: 'Proxima Nova'; }
+/*body { overflow-x: hidden; font-family: 'Proxima Nova'; }*/
 /* Custom colors */
 /*$primary: {{ site.data.style.highlight | default: "#fed136" }} !default;
 $white: {{ site.data.style.white | default: "#fff" }} !default;
@@ -38,10 +38,10 @@ html .md-footer-meta.md-typeset a:focus, html .md-footer-meta.md-typeset a {colo
 /*Change Header Nav Tabs Color*/
 .md-tabs__link {color: white;}
 
-@font-face {
-    font-family: "Proxima Nova", "Montserrat";
-    src: "https://fonts.googleapis.com/css?family=Proxima+Nova", "https://fonts.googleapis.com/css?family=Montserrat";
-  }  
+/*This is the command to display correct font*/
+body, input {
+font-family: Proxima Nova,Montserrat,Arial,sans-serif;
+}
 
 /*Hide Table of Contents*/
 .md-sidebar--secondary {
