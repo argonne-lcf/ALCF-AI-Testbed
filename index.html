@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://argonne-lcf.github.io/Argonne-AI-Testbed-System/">
+        <link rel="canonical" href="https://argonne-lcf.github.io/ALCF-AI-Testbed-System/">
       
       
       <link rel="shortcut icon" href="assets/images/favicon.png">
@@ -16,7 +16,7 @@
     
     
       
-        <title>Argonne AI-testbed System</title>
+        <title>ALCF AI-testbed System</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#argonne-ai-testbed-system-documentation" class="md-skip">
+        <a href="#alcf-ai-testbed-system-documentation" class="md-skip">
           Skip to content
         </a>
       
@@ -101,8 +101,8 @@
 
     <!-- Link to home -->
     <a
-      href="https://argonne-lcf.github.io/Argonne-AI-Testbed-System/"
-      title="Argonne AI-testbed System"
+      href="https://argonne-lcf.github.io/ALCF-AI-Testbed-System/"
+      title="ALCF AI-testbed System"
     >
       <!--
   Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
@@ -138,8 +138,8 @@
       
         <div class="md-header-nav__ellipsis">
           <span class="md-header-nav__topic md-ellipsis">
-            <a href="https://argonne-lcf.github.io/AITS-Site/" title="Argonne AI-testbed System" >
-              Argonne AI-testbed System
+            <a href="https://argonne-lcf.github.io/AITS-Site/" title="ALCF AI-testbed System" >
+              ALCF AI-testbed System
             </a>
           </span>
           <span class="md-header-nav__topic md-ellipsis">
@@ -275,7 +275,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="https://argonne-lcf.github.io/Argonne-AI-Testbed-System/" title="Argonne AI-testbed System" class="md-nav__button md-logo" aria-label="Argonne AI-testbed System">
+    <a href="https://argonne-lcf.github.io/ALCF-AI-Testbed-System/" title="ALCF AI-testbed System" class="md-nav__button md-logo" aria-label="ALCF AI-testbed System">
       <!--
   Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
   Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -299,7 +299,7 @@
 
 
     </a>
-    Argonne AI-testbed System
+    ALCF AI-testbed System
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -523,13 +523,13 @@
               
                 
                 
-                <h1 id="argonne-ai-testbed-system-documentation">Argonne AI-testbed System Documentation</h1>
-<p>The purpose of this technical documentation is to provide information on using the Argonne AI-testbed System.</p>
+                <h1 id="alcf-ai-testbed-system-documentation">ALCF AI-testbed System Documentation</h1>
+<p>The purpose of this technical documentation is to provide information on using the ALCF AI-testbed System.</p>
 <p>Please contact <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#105;&#64;&#97;&#108;&#99;&#102;&#46;&#97;&#110;&#108;&#46;&#103;&#111;&#118;">&#97;&#105;&#64;&#97;&#108;&#99;&#102;&#46;&#97;&#110;&#108;&#46;&#103;&#111;&#118;</a> for questions or feedback.</p>
 <h2 id="cerebras-cs-1"><a href="cerebras">Cerebras (CS-1)</a></h2>
 <p>CS-1 is a wafer-scale, deep learning accelerator. Processing, memory, and communication in CS-1 reside in the Cerebras Wafer-Scale Engine (WSE), a 462 square-cm silicon wafer with approximately 400,000 processor cores. Each core has 48 KB of dedicated SRAM memory (for a total of 18GB on-chip), and all cores are connected to one another over a high bandwidth, low latency, two-dimensional interconnect mesh. The software platform integrates popular machine learning frameworks like Tensorflow and PyTorch.</p>
 <h2 id="sambanova"><a href="sambanova">SambaNova</a></h2>
-<p>SambaNova systems aims to develop and accelerate AI applications at scale with a Reconfigurable Dataflow ArchitectureTM (RDA). At the core of this system is a Reconfigurable Dataflow UnitTM (RDU) which is a next-generation processor that provides dataflow processing and acceleration. The software stack, SambaFlowTM, extracts, optimizes and maps dataflow graphs to RDUs from standard machine learning frameworks such as PyTorch and Tensorflow. SambaNova Systems DatascaleTM is a rack-level accelerated system that includes DataScale nodes with integrated networking. The system deployed at Argonne AI testbed is a half-rack RDA system consisting of two nodes, each with eight RDUs. The RDUs on a node are interconnected via a proprietary interconnect to enable both model parallelism as well as data parallelism. Each node consists two  sockets with 128 cores and 1 TB of memory and are interconnected using an Infiniband-based fabric.</p>
+<p>SambaNova systems aims to develop and accelerate AI applications at scale with a Reconfigurable Dataflow ArchitectureTM (RDA). At the core of this system is a Reconfigurable Dataflow UnitTM (RDU) which is a next-generation processor that provides dataflow processing and acceleration. The software stack, SambaFlowTM, extracts, optimizes and maps dataflow graphs to RDUs from standard machine learning frameworks such as PyTorch and Tensorflow. SambaNova Systems DatascaleTM is a rack-level accelerated system that includes DataScale nodes with integrated networking. The system deployed at ALCF AI testbed is a half-rack RDA system consisting of two nodes, each with eight RDUs. The RDUs on a node are interconnected via a proprietary interconnect to enable both model parallelism as well as data parallelism. Each node consists two  sockets with 128 cores and 1 TB of memory and are interconnected using an Infiniband-based fabric.</p>
 <h2 id="graphcore"><a href="https://docs.graphcore.ai/en/latest/" target="_blank">Graphcore</a></h2>
 <p>Colossus GC2 Intelligent Processing Unit (IPU) was designed to  provide state-of-the-art performance  for training  and inference  workloads.  It consists of 1216 IPU-Tiles each with an independent core and tightly  coupled  memory.   The  Dell  DSS8440,  the  first  Graphcore  IPUserver, features 8 dual-IPU C2 PCIe cards, all connected with IPU-Link™technology in an industry standard 4U server for AI training and inference workloads.  The server has two sockets, each with twenty cores, and 768GB of memory.</p>
 <h2 id="groq-available-in-2021">Groq (Available in 2021)</h2>

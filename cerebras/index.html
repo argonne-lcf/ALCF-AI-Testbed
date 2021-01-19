@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://argonne-lcf.github.io/Argonne-AI-Testbed-System/cerebras/">
+        <link rel="canonical" href="https://argonne-lcf.github.io/ALCF-AI-Testbed-System/cerebras/">
       
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
@@ -16,7 +16,7 @@
     
     
       
-        <title>Cerebras (CS-1) - Argonne AI-testbed System</title>
+        <title>Cerebras (CS-1) - ALCF AI-testbed System</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cs-1-quickstart-guide-for-anl" class="md-skip">
+        <a href="#cs-1-quickstart-guide-for-alcf" class="md-skip">
           Skip to content
         </a>
       
@@ -101,8 +101,8 @@
 
     <!-- Link to home -->
     <a
-      href="https://argonne-lcf.github.io/Argonne-AI-Testbed-System/"
-      title="Argonne AI-testbed System"
+      href="https://argonne-lcf.github.io/ALCF-AI-Testbed-System/"
+      title="ALCF AI-testbed System"
     >
       <!--
   Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
@@ -138,8 +138,8 @@
       
         <div class="md-header-nav__ellipsis">
           <span class="md-header-nav__topic md-ellipsis">
-            <a href="https://argonne-lcf.github.io/AITS-Site/" title="Argonne AI-testbed System" >
-              Argonne AI-testbed System
+            <a href="https://argonne-lcf.github.io/AITS-Site/" title="ALCF AI-testbed System" >
+              ALCF AI-testbed System
             </a>
           </span>
           <span class="md-header-nav__topic md-ellipsis">
@@ -275,7 +275,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="https://argonne-lcf.github.io/Argonne-AI-Testbed-System/" title="Argonne AI-testbed System" class="md-nav__button md-logo" aria-label="Argonne AI-testbed System">
+    <a href="https://argonne-lcf.github.io/ALCF-AI-Testbed-System/" title="ALCF AI-testbed System" class="md-nav__button md-logo" aria-label="ALCF AI-testbed System">
       <!--
   Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
   Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -299,7 +299,7 @@
 
 
     </a>
-    Argonne AI-testbed System
+    ALCF AI-testbed System
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -377,8 +377,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-log-in-to-the-cs-1-medulla-cluster-at-anl" class="md-nav__link">
-    1. Log in to the CS-1 medulla cluster at ANL
+  <a href="#1-log-in-to-the-cs-1-medulla-cluster-at-alcf" class="md-nav__link">
+    1. Log in to the CS-1 medulla cluster at ALCF
   </a>
   
 </li>
@@ -551,8 +551,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-log-in-to-the-cs-1-medulla-cluster-at-anl" class="md-nav__link">
-    1. Log in to the CS-1 medulla cluster at ANL
+  <a href="#1-log-in-to-the-cs-1-medulla-cluster-at-alcf" class="md-nav__link">
+    1. Log in to the CS-1 medulla cluster at ALCF
   </a>
   
 </li>
@@ -659,12 +659,12 @@
               
                 
                 
-                <h1 id="cs-1-quickstart-guide-for-anl">CS-1 Quickstart Guide for ANL</h1>
+                <h1 id="cs-1-quickstart-guide-for-alcf">CS-1 Quickstart Guide for ALCF</h1>
 <p><em>November 2020</em></p>
 <p><strong>Note: For support or questions, please contact <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#99;&#101;&#114;&#101;&#98;&#114;&#97;&#115;&#46;&#110;&#101;&#116;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#99;&#101;&#114;&#101;&#98;&#114;&#97;&#115;&#46;&#110;&#101;&#116;</a>.</strong></p>
-<p>This guide provides a quickstart guide to running a training job on the ANL CS-1 cluster with SLURM, using a simple FC model as a demo model.</p>
+<p>This guide provides a quickstart guide to running a training job on the ALCF CS-1 cluster with SLURM, using a simple FC model as a demo model.</p>
 <p>For more details on how to prepare a model for CS-1 and on the execution model, please see the full CS-1 ML User Guide.</p>
-<h4 id="1-log-in-to-the-cs-1-medulla-cluster-at-anl">1. Log in to the CS-1 <code>medulla</code> cluster at ANL</h4>
+<h4 id="1-log-in-to-the-cs-1-medulla-cluster-at-alcf">1. Log in to the CS-1 <code>medulla</code> cluster at ALCF</h4>
 <p>In order to login, you need a CELS ldap account. Go to <a href="https://accounts.cels.anl.gov/" target="_blank">https://accounts.cels.anl.gov/</a> and create an account. After that, request to join a project named "Cerebras".  </p>
 <p>The CS-1 support cluster accepts connections from CELS homes nodes (homes.cels.anl.gov). You can connect to CELS homes nodes first and ssh to cs1. See <a href="https://virtualhelpdesk.cels.anl.gov/docs/linux/login-compute-and-home-nodes/" target="_blank">https://virtualhelpdesk.cels.anl.gov/docs/linux/login-compute-and-home-nodes/</a> for connecting homes nodes.</p>
 <p>For your convenience, you can set an ssh proxy as below,</p>
