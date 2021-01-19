@@ -20,5 +20,5 @@ nav:
     - 'Cerebras (CS-1)': 'cerebras.md'
     - 'SambaNova': 'sambanova.md'
     - 'Graphcore': 'https://docs.graphcore.ai/en/latest/'
-    - 'Contact': 'https://argonne-lcf.github.io/AITS-Site/#contact'
+    - 'Access & Support': 'https://argonne-lcf.github.io/AITS-Site/#contact'
     - Documentation: 'index.md'

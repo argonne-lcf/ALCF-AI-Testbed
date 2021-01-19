@@ -2,7 +2,7 @@
 
 The purpose of this technical documentation is to provide information on using the Argonne AI-testbed System.
 
-Please contact placeholder_email@anl.gov for questions or feedback.
+Please contact <ai@alcf.anl.gov> for questions or feedback.
 
 ## [Cerebras (CS-1)](cerebras)
 CS-1 is a wafer-scale, deep learning accelerator. Processing, memory, and communication in CS-1 reside in the Cerebras Wafer-Scale Engine (WSE), a 462 square-cm silicon wafer with approximately 400,000 processor cores. Each core has 48 KB of dedicated SRAM memory (for a total of 18GB on-chip), and all cores are connected to one another over a high bandwidth, low latency, two-dimensional interconnect mesh. The software platform integrates popular machine learning frameworks like Tensorflow and PyTorch.
