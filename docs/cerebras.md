@@ -1,14 +1,14 @@
-# CS-1 Quickstart Guide for ANL
+# CS-1 Quickstart Guide for ALCF
 *November 2020*
 
 **Note: For support or questions, please contact <support@cerebras.net>.**
 
 
-This guide provides a quickstart guide to running a training job on the ANL CS-1 cluster with SLURM, using a simple FC model as a demo model.
+This guide provides a quickstart guide to running a training job on the ALCF CS-1 cluster with SLURM, using a simple FC model as a demo model.
 
 For more details on how to prepare a model for CS-1 and on the execution model, please see the full CS-1 ML User Guide.
 
-#### 1. Log in to the CS-1 `medulla` cluster at ANL
+#### 1. Log in to the CS-1 `medulla` cluster at ALCF
 
 In order to login, you need a CELS ldap account. Go to <https://accounts.cels.anl.gov/>{:target="_blank"} and create an account. After that, request to join a project named "Cerebras".  
 

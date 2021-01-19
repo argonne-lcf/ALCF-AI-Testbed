@@ -1,5 +1,5 @@
-site_name: Argonne AI-testbed System
-site_url: https://argonne-lcf.github.io/Argonne-AI-Testbed-System/
+site_name: ALCF AI-testbed System
+site_url: https://argonne-lcf.github.io/ALCF-AI-Testbed-System/
 theme:
   name: material
 #  font:
