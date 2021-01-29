@@ -1,5 +1,5 @@
-site_name: ALCF AI-testbed System
-site_url: https://argonne-lcf.github.io/ALCF-AI-Testbed-System/
+site_name: ALCF AI-Testbed
+site_url: https://argonne-lcf.github.io/ALCF-AI-Testbed/
 theme:
   name: material
 #  font:
@@ -14,11 +14,11 @@ markdown_extensions:
   - meta
 #repo_url: https://github.com/argonne-lcf/Argonne-AI-Testbed-System
 nav:
-    - 'About': 'https://argonne-lcf.github.io/AITS-Site/#about'
-    - 'Testbed Applications': 'https://argonne-lcf.github.io/AITS-Site/#services'
-    - 'Systems': 'https://argonne-lcf.github.io/AITS-Site/#portfolio'
+    - 'About': 'https://ai.alcf.anl.gov/#about'
+    - 'Testbed Applications': 'https://ai.alcf.anl.gov/#services'
+    - 'Systems': 'https://ai.alcf.anl.gov/#portfolio'
     - 'Cerebras (CS-1)': 'cerebras.md'
     - 'SambaNova': 'sambanova.md'
     - 'Graphcore': 'https://docs.graphcore.ai/en/latest/'
-    - 'Access & Support': 'https://argonne-lcf.github.io/AITS-Site/#contact'
+    - 'Access & Support': 'https://ai.alcf.anl.gov/#contact'
     - Documentation: 'index.md'
