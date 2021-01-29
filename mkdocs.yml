@@ -15,10 +15,10 @@ markdown_extensions:
 #repo_url: https://github.com/argonne-lcf/Argonne-AI-Testbed-System
 nav:
     - 'About': 'https://ai.alcf.anl.gov/#about'
-    - 'Testbed Applications': 'https://ai.alcf.anl.gov/#services'
-    - 'Systems': 'https://ai.alcf.anl.gov/#portfolio'
+    - 'Testbed Applications': 'https://ai.alcf.anl.gov/#applications'
+    - 'Systems': 'https://ai.alcf.anl.gov/#systems'
     - 'Cerebras (CS-1)': 'cerebras.md'
     - 'SambaNova': 'sambanova.md'
     - 'Graphcore': 'https://docs.graphcore.ai/en/latest/'
-    - 'Access & Support': 'https://ai.alcf.anl.gov/#contact'
+    - 'Access & Support': 'https://ai.alcf.anl.gov/#access-support'
     - Documentation: 'index.md'
