@@ -1,6 +1,6 @@
 # ALCF AI-Testbed Documentation
 
-The purpose of this technical documentation is to provide information on using the ALCF AI-Testbed.
+This documentatiom provides guidance on using the ALCF AI-Testbed.
 
 Please contact <ai@alcf.anl.gov> for questions or feedback.
 
