@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://argonne-lcf.github.io/ALCF-AI-Testbed/cerebras/</loc>
-     <lastmod>2021-03-10</lastmod>
+     <lastmod>2021-03-11</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://argonne-lcf.github.io/ALCF-AI-Testbed/sambanova/</loc>
-     <lastmod>2021-03-10</lastmod>
+     <lastmod>2021-03-11</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://argonne-lcf.github.io/ALCF-AI-Testbed/</loc>
-     <lastmod>2021-03-10</lastmod>
+     <lastmod>2021-03-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
