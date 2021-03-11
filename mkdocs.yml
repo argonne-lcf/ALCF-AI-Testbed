@@ -1,4 +1,4 @@
-site_name: ALCF AI-Testbed Documentation
+site_name: ALCF AI-Testbed
 site_url: https://argonne-lcf.github.io/ALCF-AI-Testbed/
 theme:
   name: material
