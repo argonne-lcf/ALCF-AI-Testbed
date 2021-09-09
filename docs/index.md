@@ -14,5 +14,7 @@ SambaNova systems aims to develop and accelerate AI applications at scale with a
 ## [Graphcore](https://docs.graphcore.ai/en/latest/){:target="_blank"}
 Colossus GC2 Intelligent Processing Unit (IPU) was designed to  provide state-of-the-art performance  for training  and inference  workloads.  It consists of 1216 IPU-Tiles each with an independent core and tightly  coupled  memory.   The  Dell  DSS8440,  the  first  Graphcore  IPUserver, features 8 dual-IPU C2 PCIe cards, all connected with IPU-Link™technology in an industry standard 4U server for AI training and inference workloads.  The server has two sockets, each with twenty cores, and 768GB of memory.
 
-## Groq (Available in 2021)
+## [Groq](groq)
 Groq tensor streaming processor (TSP) provides a scalable and  programmable processing core and memory building block to achieve 250 TFlops in FP16 and  1 PetaOp/s in INT8 performance. The Groq accelerators are PCIe gen4-based and multiple accelerators one a node can be interconnect via a proprietary chip-to-chip interconnect to enable larger models and data parallelism.
+
+## [Habana](coming in fall 2021)
